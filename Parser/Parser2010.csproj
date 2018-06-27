@@ -94,17 +94,17 @@
     <Compile Include="RtfSpec.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sys\Sys2010.csproj">
-      <Project>{1A9A64A4-3BDD-467D-ADB3-58BEDBBDEB4E}</Project>
-      <Name>Sys2010</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Strings.resx">
       <DependentUpon>Strings.cs</DependentUpon>
       <LastGenOutput>Strings.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sys\Sys.csproj">
+      <Project>{7ad31c7f-ad32-4a00-931f-a16028da32af}</Project>
+      <Name>Sys</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

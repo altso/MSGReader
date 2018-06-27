@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net45</TargetFramework>
+    <Version>2.3.0.0</Version>
+    <Company>Jani Giannoudis</Company>
+    <Product>Core</Product>
+    <Copyright>Copyright © Jani Giannoudis 2004-2013</Copyright>
+    <PackageId>Itenso Framework Core</PackageId>
+    <Description>Part of the Itenso framework</Description>
+    <RootNamespace>Itenso.Sys</RootNamespace>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>../keys/ItensoRtfConverter.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+</Project>
