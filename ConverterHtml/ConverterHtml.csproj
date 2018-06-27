@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net45</TargetFramework>
+    <Version>1.7.0.0</Version>
+    <Company>Jani Giannoudis</Company>
+    <Product>Core</Product>
+    <Copyright>Copyright © Jani Giannoudis 2004-2013</Copyright>
+    <PackageId>Itenso RTF to HTML Converter</PackageId>
+    <Description>Itenso RTF to HTML Converter</Description>
+    <RootNamespace>Itenso.Rtf.Converter.Html</RootNamespace>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>../keys/ItensoRtfConverter.snk</AssemblyOriginatorKeyFile>
+    <AssemblyName>Itenso.Rtf.Converter.Html</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Interpreter\Interpreter.csproj" />
+    <ProjectReference Include="..\Sys\Sys.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web" />
+  </ItemGroup>
+</Project>

@@ -10,6 +10,7 @@
     <RootNamespace>Itenso.Rtf</RootNamespace>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>../keys/ItensoRtfConverter.snk</AssemblyOriginatorKeyFile>
+    <AssemblyName>Itenso.Rtf.Parser</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sys\Sys.csproj" />
