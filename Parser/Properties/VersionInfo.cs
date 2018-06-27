@@ -5,20 +5,7 @@
 // environment: .NET 2.0
 // copyright  : (c) 2004-2013 by Jani Giannoudis, Switzerland
 
-using System.Reflection;
-
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version
-//      Build Number
-//      Revision
-//
-
-[assembly: AssemblyVersion("1.7.0.0")]
-
 // ReSharper disable CheckNamespace
-
 namespace Itenso.Rtf.Parser
 // ReSharper restore CheckNamespace
 {

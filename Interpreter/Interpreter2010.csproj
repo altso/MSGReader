@@ -144,9 +144,9 @@
     <Compile Include="Support\RtfVisualVisitorBase.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Parser\Parser2010.csproj">
-      <Project>{210DBD13-A7B0-430A-AEB4-7E558CA61A46}</Project>
-      <Name>Parser2010</Name>
+    <ProjectReference Include="..\Parser\Parser.csproj">
+      <Project>{8f1a7aff-0ea0-4d75-9820-a7a83df85106}</Project>
+      <Name>Parser</Name>
     </ProjectReference>
     <ProjectReference Include="..\Sys\Sys.csproj">
       <Project>{7ad31c7f-ad32-4a00-931f-a16028da32af}</Project>

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net45</TargetFramework>
+    <Version>1.7.0.0</Version>
+    <Company>Jani Giannoudis</Company>
+    <Product>Core</Product>
+    <Copyright>Copyright © Jani Giannoudis 2004-2013</Copyright>
+    <PackageId>Itenso RTF Parser</PackageId>
+    <Description>Itenso RTF Parser</Description>
+    <RootNamespace>Itenso.Rtf</RootNamespace>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>../keys/ItensoRtfConverter.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sys\Sys.csproj" />
+  </ItemGroup>
+</Project>
