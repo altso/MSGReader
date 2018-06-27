@@ -66,17 +66,17 @@
     <Compile Include="Properties\VersionInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Interpreter\Interpreter2010.csproj">
-      <Project>{3F1B94DC-2EE6-4674-A2DE-E60FFC63A1D9}</Project>
-      <Name>Interpreter2010</Name>
+    <None Include="ItensoRtfConverter.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Interpreter\Interpreter.csproj">
+      <Project>{32087bbf-ac15-4475-a573-f917cce19664}</Project>
+      <Name>Interpreter</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Sys\Sys.csproj">
       <Project>{7ad31c7f-ad32-4a00-931f-a16028da32af}</Project>
       <Name>Sys</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ItensoRtfConverter.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
